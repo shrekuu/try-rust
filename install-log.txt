@@ -1,0 +1,90 @@
+➜ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
+info: downloading installer
+
+Welcome to Rust!
+
+This will download and install the official compiler for the Rust
+programming language, and its package manager, Cargo.
+
+Rustup metadata and toolchains will be installed into the Rustup
+home directory, located at:
+
+  /Users/bond/.rustup
+
+This can be modified with the RUSTUP_HOME environment variable.
+
+The Cargo home directory located at:
+
+  /Users/bond/.cargo
+
+This can be modified with the CARGO_HOME environment variable.
+
+The cargo, rustc, rustup and other commands will be added to
+Cargo's bin directory, located at:
+
+  /Users/bond/.cargo/bin
+
+This path will then be added to your PATH environment variable by
+modifying the profile files located at:
+
+  /Users/bond/.profile
+  /Users/bond/.zshenv
+
+You can uninstall at any time with rustup self uninstall and
+these changes will be reverted.
+
+Current installation options:
+
+
+   default host triple: x86_64-apple-darwin
+     default toolchain: stable (default)
+               profile: default
+  modify PATH variable: yes
+
+1) Proceed with installation (default)
+2) Customize installation
+3) Cancel installation
+>1
+
+info: profile set to 'default'
+info: default host triple is x86_64-apple-darwin
+info: syncing channel updates for 'stable-x86_64-apple-darwin'
+686.2 KiB / 686.2 KiB (100 %)  80.0 KiB/s in 11s ETA:  0s
+info: latest update on 2022-02-24, rust version 1.59.0 (9d1b2106e 2022-02-23)
+info: downloading component 'cargo'
+  4.3 MiB /   4.3 MiB (100 %)  28.8 KiB/s in  2m 24s ETA:  0s
+info: downloading component 'clippy'
+  1.8 MiB /   1.8 MiB (100 %)  23.2 KiB/s in  2m 13s ETA:  0s
+info: downloading component 'rust-docs'
+151.0 KiB /  19.3 MiB (  1 %)  21.3 KiB/s in 40s ETA: 15m 17s
+info: retrying download for 'https://static.rust-lang.org/dist/2022-02-24/rust-docs-1.59.0-x86_64-apple-darwin.tar.xz'
+ 19.3 MiB /  19.3 MiB (100 %)   3.6 MiB/s in 10s ETA:  0s
+info: downloading component 'rust-std'
+ 24.5 MiB /  24.5 MiB (100 %)   2.6 MiB/s in 11s ETA:  0s
+info: downloading component 'rustc'
+ 52.9 MiB /  52.9 MiB (100 %)   3.2 MiB/s in 22s ETA:  0s
+info: downloading component 'rustfmt'
+  2.3 MiB /   2.3 MiB (100 %) 255.4 KiB/s in  2s ETA:  0s
+info: installing component 'cargo'
+info: installing component 'clippy'
+info: installing component 'rust-docs'
+ 19.3 MiB /  19.3 MiB (100 %)   4.8 MiB/s in  4s ETA:  0s
+info: installing component 'rust-std'
+ 24.5 MiB /  24.5 MiB (100 %)  10.8 MiB/s in  2s ETA:  0s
+info: installing component 'rustc'
+ 52.9 MiB /  52.9 MiB (100 %)  11.6 MiB/s in  4s ETA:  0s
+info: installing component 'rustfmt'
+info: default toolchain set to 'stable-x86_64-apple-darwin'
+
+  stable-x86_64-apple-darwin installed - rustc 1.59.0 (9d1b2106e 2022-02-23)
+
+
+Rust is installed now. Great!
+
+To get started you may need to restart your current shell.
+This would reload your PATH environment variable to include
+Cargo's bin directory ($HOME/.cargo/bin).
+
+To configure your current shell, run:
+source $HOME/.cargo/env
